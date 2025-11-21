@@ -1,7 +1,7 @@
 //VALIDADOR  DE FORMULARIO BÁSICO EN CONSOLA ===
 //==============================================
 
-// Captura de datos con prompt()
+// Captura de datos con prompt().
 const fullname = prompt("Ingresa tu nombre completo:");
 const email = prompt("Ingresa tu correo electrónico:");
 const password = prompt("Ingresa tu contraseña (mínimo 8 caracteres):");
@@ -44,3 +44,4 @@ else if (
 else {
     console.log(`✅ Registro exitoso. ¡Bienvenido, ${fullname}!`);
 }
+
